@@ -1,0 +1,24 @@
+[package]
+
+version = "0.2.0"
+
+category = "isaaclab"
+readme  = "README.md"
+
+title = "Manipulator RL"
+author = "Tim"
+maintainer = "Tim"
+description = "RL training for Piper 6-DOF robotic arm pick-and-place"
+repository = ""
+keywords = ["manipulator", "piper", "rl", "isaaclab"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "manipulator"
+
+[isaaclab_settings]
