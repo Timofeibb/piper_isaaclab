@@ -1,4 +1,0 @@
-okay, now lets have a talk about these tasks
-1 reach, this is a simple task that make arm ee reach target point, no griper command
-2 lift, this training make robot arm not only reach physical object, but also contlor gripper state by binary commands, pick and lift to a commanded height
-3 place, this task include first and second step, but also make arm to place a physical object on commanded spot (green disc), this is much complicated task
