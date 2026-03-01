@@ -33,7 +33,7 @@ Two actuator configurations are provided:
 
 ### Step 1: Reach (`Isaac-Reach-Piper-v0`)
 
-<video src="data/Reach.webm" width="600" autoplay loop muted></video>
+<video src="data/Reach.mp4" width="600" autoplay loop muted></video>
 
 Move the end-effector to a physical target object spawned randomly in the workspace.
 
@@ -50,7 +50,7 @@ The target object is sampled in **polar coordinates** across the reachable annul
 
 ### Step 2: Lift (`Isaac-Lift-Piper-v0`)
 
-<video src="data/Lift.webm" width="600" autoplay loop muted></video>
+<video src="data/Lift.mp4" width="600" autoplay loop muted></video>
 
 Reach a rigid object, grasp it, and lift it to a commanded goal position.
 
@@ -67,7 +67,7 @@ Grasping **emerges** from the lift reward — no explicit grasp reward is used. 
 
 ### Step 3: Place (`Isaac-Place-Piper-v0`)
 
-<video src="data/Place.webm" width="600" autoplay loop muted></video>
+<video src="data/Place.mp4" width="600" autoplay loop muted></video>
 
 Full pick-and-place: reach, grasp, lift, transport, and place at a commanded ground location.
 
